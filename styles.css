@@ -1,0 +1,284 @@
+body{
+
+
+}
+body h1 {
+    margin: 10px;
+}
+body p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.contenedor-cabecera {
+    background-image: url(imagenes/Logo_GC_RGB-01-300x100.png) ;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+
+nav {
+    background-color: green;
+    font-size: 20px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding:5px;
+
+}
+
+li{ 
+    list-style: none;
+    display : inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.fa-shopping-cart {
+    font-size: 25px; 
+    color: white;    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6aa84f;
+    color: rgb(195, 33, 33);
+    padding: 1em 0;
+    text-align: end;
+    margin: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 900px;
+}
+
+section img {
+    align-items: center;
+    margin-top: 10px
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container img {
+    width: 50%; 
+    max-width: 300px; 
+    height: auto;
+    margin: 0 auto 10px; 
+}
+
+
+.grid-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.grid-item img {
+    width: 100%; 
+    max-width: 300px;
+    height: auto; 
+    margin: 0 auto 10px; 
+}
+footer {
+    position: mid;
+}
+
+.grid-container{
+    font-size: 20px;
+}
+
+.logo-instagram {
+    width: 50px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+}
+
+.logo-instagram:hover {
+    transform: scale(1.1); 
+}
+.navbar-green {
+    background-color: #6ab451; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.navbar-green .navbar-toggler {
+    background-color: white;
+}
+.navbar-green .nav-link {
+    color: white; 
+}
+
+.navbar-green .nav-link:hover {
+    color: black;
+}
+.navbar-toggler-icon{
+    background-image: none;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    border: none;
+}
+
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '';
+    display: block;
+    width: 30px; 
+    height: 3px;
+    background-color: black; 
+    margin: 5px auto; 
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler-icon:hover::before,
+.navbar-toggler-icon:hover::after {
+    background-color: green; 
+}
+
+footer{
+    background-color: #6ab451;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em ;
+    width: 100%;
+}
+
+nav img{
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: block;
+    
+        .contenedor-cabecera {
+            flex-direction: column; /* Apila los elementos verticalmente */
+            justify-content: center; /* Centra horizontalmente */
+            text-align: center; /* Alinea el texto si hay elementos textuales */
+        }
+    
+        .contenedor-cabecera img {
+            max-width: 100%; /* Asegura que las imágenes se ajusten al ancho disponible */
+            height: auto;
+            object-fit: contain; /* Mantiene la proporción de la imagen */
+        }
+    
+        nav ul {
+            flex-direction: column; /* Cambia la orientación del menú a vertical */
+            padding: 0;
+        }
+    
+        nav ul li {
+            margin: 10px 0; /* Añade espacio entre los elementos del menú */
+        }
+    }
+    
+}
+
+.grid-container-tienda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0px;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+}
+.grid-container-tienda img{
+    width: 50%; 
+    max-width: 300px; 
+    height: auto;
+    margin: 0 auto 10px; 
+}
+
+button {
+    color: black;
+    background-color: whitesmoke;
+}
+
