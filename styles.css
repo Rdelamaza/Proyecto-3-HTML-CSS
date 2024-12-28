@@ -1,7 +1,4 @@
-body{
 
-
-}
 body h1 {
     margin: 10px;
 }
@@ -19,11 +16,6 @@ body p{
     max-width: 500px;
     height: auto;
     margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
     
 }
 
@@ -32,6 +24,9 @@ nav {
     background-color: green;
     font-size: 20px;
     padding: 0px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 ul {
@@ -179,7 +174,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    width: 100%;
+    margin: 0;
     
+
 }
 
 .navbar-green .navbar-toggler {
@@ -216,7 +214,7 @@ footer {
 
 .navbar-toggler-icon:hover::before,
 .navbar-toggler-icon:hover::after {
-    background-color: green; 
+    background-color: #6ab451; 
 }
 
 footer{
@@ -282,3 +280,15 @@ button {
     background-color: whitesmoke;
 }
 
+.header-p{
+    background-color: #6ab451;
+}
+
+.custom-navbar {
+    background-color:  #6ab451; /* Fondo personalizado */
+    color: #ecf0f1;           /* Color de texto */
+}
+
+.navbar navbar-expand-lg navbar-green container{
+    margin:0;
+}

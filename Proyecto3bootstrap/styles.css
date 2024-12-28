@@ -1,0 +1,75 @@
+
+.contenedor-cabecera {
+    background-image: url(imagenes/Logo_GC_RGB-01-300x100.png) ;
+    padding: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0px;
+    
+}
+
+.usuarios-container {
+    display: flex; /* Flexbox para alineación horizontal */
+    flex-wrap: wrap; /* Permite que los elementos pasen a una nueva fila si no caben */
+    justify-content: space-around; /* Espacio uniforme entre elementos */
+    gap: 20px; /* Espaciado entre los usuarios */
+    text-align: center; /* Centra el contenido de las secciones */
+}
+
+.usuarios-container section {
+    width: 200px; /* Ancho fijo para cada sección */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.usuarios-container img {
+    width: 100%; /* Ajusta la imagen al ancho de la sección */
+    max-width: 150px; /* Tamaño máximo de la imagen */
+    height: auto;
+    margin: 0 auto;
+    display: block; /* Centra la imagen */
+}
+
+footer{
+    background-color:#6ab451 ;
+}
+
+.custom-navbar {
+    background-color:#6ab451; /* Verde */
+    color: White; /* Texto blanco */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color:white; /* Asegura que los enlaces también sean blancos */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color:#0d6efd ; /* Color blanco más suave al pasar el ratón */
+    
+}
+span{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+
+.navbar.custom-navbar .navbar-nav .nav-link {
+        font-size: 25px; /* Aumenta el tamaño de la fuente */
+        font-weight: 600; /* Hace el texto más grueso */
+}
+
+.navbar.custom-navbar .navbar-nav .nav-link:hover {
+        font-weight: 700; /* Hace el texto aún más grueso al pasar el ratón */
+}
+
+section img{
+    
+    height: auto;
+}
+    
