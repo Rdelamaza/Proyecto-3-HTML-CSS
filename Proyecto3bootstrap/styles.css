@@ -1,3 +1,55 @@
+html, body {
+    height: 100%;
+    margin:0px;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color:#6ab451 ;
+
+}
+
+main h2 {
+    margin-top: 50px;
+    margin-bottom:70px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+    
+}
+main p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main h3{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+main h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: center;
+}
+
 
 .contenedor-cabecera {
     background-image: url(imagenes/Logo_GC_RGB-01-300x100.png) ;
@@ -41,6 +93,7 @@ footer{
 .custom-navbar {
     background-color:#6ab451; /* Verde */
     color: White; /* Texto blanco */
+    margin-bottom: 0;
 }
 
 .custom-navbar .navbar-nav .nav-link {
@@ -68,8 +121,46 @@ span{
         font-weight: 700; /* Hace el texto aún más grueso al pasar el ratón */
 }
 
-section img{
+.navbar-toggler {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
-    height: auto;
+}    
+#productos{
+    background-color: rgba(106, 180, 81, 0.2);
+    min-height: 100vh;
+}
+
+#servicios{
+    background-color: rgba(106, 180, 81, 0.2);
+    min-height: 100vh;
+    width: 100%;
+}
+
+#inicio{
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    
 }
     
+
+#nosotros{
+    min-height: 100vh;
+    margin: 0;
+}
+#nosotros h2{
+    background-color:#6ab451;
+}
+#contacto{
+    min-height: 100vh;
+}
