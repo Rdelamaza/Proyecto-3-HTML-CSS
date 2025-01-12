@@ -28,23 +28,25 @@ main h2 {
     margin-bottom:70px;
     font-size: 60px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open', sans-serif;
     text-decoration: underline;
-    
 }
 main p{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    color: rgb(0, 183, 57);
+    margin-bottom: 0;
 }
 
 main h3{
     margin-bottom: 20px;
     font-size: 35px;
+    margin-top: 30px;
 }
 
 main h4{
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 20px;
     font-size: 45px;
     text-align: center;
@@ -129,9 +131,10 @@ span{
     padding: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }    
+
+
 #productos{
     background-color: rgba(106, 180, 81, 0.2);
     min-height: 100vh;
@@ -147,20 +150,23 @@ span{
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 0;
+    margin-top: 30px;
     padding-top: 0;
-    padding-bottom: 0;
-    
+    padding-bottom: 0;  
+}
+#inicio p{
+    margin-top: 50px;
+    margin-bottom:70px;
 }
     
-
 #nosotros{
     min-height: 100vh;
     margin: 0;
 }
-#nosotros h2{
-    background-color:#6ab451;
-}
+
 #contacto{
     min-height: 100vh;
+}
+#contacto p{
+    margin-bottom: 20px;
 }
