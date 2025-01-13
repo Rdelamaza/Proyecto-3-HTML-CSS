@@ -16,4 +16,4 @@ Puedes elegir uno de los siguientes métodos:
  c) Framework Bootstrap.
 
 
-![alt text](<Diagrama sin título.drawio.png>)
+![draw.io](imagenes/Diagrama sin título.drawio.png)
